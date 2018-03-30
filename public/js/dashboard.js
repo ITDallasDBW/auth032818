@@ -13,7 +13,7 @@ $.ajax({
   error: error => window.location = "/"
 })
 
-$('.logout').on('click', () => {
+$('.logout-btn').on('click', () => {
   localStorage.removeItem('token')
   window.location = '/'
 })
